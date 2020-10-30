@@ -10357,6 +10357,7 @@ in
     self = python38Full;
     bluezSupport = true;
     x11Support = true;
+    stdenv = llvmPackages_10.stdenv;
   };
   python39Full = python39.override {
     self = python39Full;
