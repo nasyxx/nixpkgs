@@ -15374,7 +15374,7 @@ in
 
   readline70 = callPackage ../development/libraries/readline/7.0.nix { };
 
-  readline80 = callPackage ../development/libraries/readline/8.0.nix { };
+  readline80 = callPackage ../development/libraries/readline/8.0.nix { stdenv = llvmPackages_10.stdenv; };
 
   readosm = callPackage ../development/libraries/readosm { };
 
